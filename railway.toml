@@ -1,0 +1,7 @@
+[build]
+builder = "nixpacks"
+buildCommand = "npm cache clean --force && npm install"
+
+[deploy]
+startCommand = "npm start"
+restartPolicyType = "always"
